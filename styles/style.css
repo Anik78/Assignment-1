@@ -173,7 +173,7 @@ nav {
     margin-right: 100px;
 
 }
-.yunus{
+.yus{
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
@@ -189,6 +189,8 @@ nav {
 /* news1 */
 .imgnews1{
     border-radius: 20px;
+    width: 408px;   
+    height: 326px;
 }
 .news1{
     display: flex;
@@ -198,6 +200,56 @@ nav {
     font-weight: bold;
     color: #181818;
     text-align: left;
-    margin-left: 100px;
-    margin: top 20px;
+    gap: 500px;
+    margin-left: 20px;
+    margin-top: 0px;
+} 
+.section-title-news1-sub{
+    /* margin-left: 20px; */
+    margin-top: 0%;
+}
+.margin-left-news1{
+    margin-left: 10px;
+}
+.section-description-news1{
+    font-size: 18px;
+    color: #757575;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    text-align: left;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+}
+.flex-news1{
+    display: flex;
+    margin-left: 0px;
+    gap: 20px;
+}
+.upwards{
+    margin-top: -50px; 
+}
+.marginzero{
+    margin: 0%;
+    padding: 0%;
+}
+.margindonate{
+    margin-top: 90px;
+    padding: 0%;
+    text-align: center;
+}
+.margindonate-sub{
+    text-align: center;
+}
+.margin-pre-donate{
+    margin-top: 90px;
+    /* padding: 0%; */
+    /* text-align: center; */
+}
+.skills-donate{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    
+    gap: 20px; /* Adjust gap between cards */
+    flex-wrap: wrap; /* Ensures responsiveness */
 }
