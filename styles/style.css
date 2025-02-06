@@ -21,7 +21,7 @@ nav {
 
 .nav-title{
     font-weight: 800;
-    font-size: 45px;
+    font-size: 25px;
     /* margin-left: 50px; */
 }
 .sign-in-btn {
@@ -58,9 +58,13 @@ nav {
 
 }
 .banner-greetings{
-    font-size: 45px;
+    /* font-size: 45px; */
     font-weight: 600;
     opacity: 0.5;
+}
+.banner-title{
+    font-size: 38px;
+    font-weight: 600;
 }
 .btn-primary{
     background-color: #006A50;
@@ -76,13 +80,12 @@ nav {
     /* margin: 10px 20px 10px 230px; */
     border-radius: 30px;
     padding: 50px 50px 50px 5px;
-    
     margin-top: 0px;
     margin-left: 100px;
     margin-right: 100px;
 }
 .banner-content{
-    max-width: 50000px;
+    max-width: 400px;
 }
 .banner-content2{
     max-width: 2000px;
@@ -109,6 +112,12 @@ nav {
 }
 .skill-description{
     opacity: 0.5;
+    /* word-break: break-word; */
+}
+.words{
+    word-wrap: break-word;
+    white-space: normal;
+    flex-wrap: wrap; 
 }
 /* 3 cards */
 .btn-primary3{
@@ -163,4 +172,32 @@ nav {
     margin-left: 100px;
     margin-right: 100px;
 
+}
+.yunus{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.advisor{
+    opacity: 0.5;
+}
+.header{
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    /* background-position: top left, bottom right; */
+}
+/* news1 */
+.imgnews1{
+    border-radius: 20px;
+}
+.news1{
+    display: flex;
+}
+.section-title-news1{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: left;
+    margin-left: 100px;
+    margin: top 20px;
 }
