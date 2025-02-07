@@ -280,11 +280,11 @@ nav {
     background-color: #C6E4D6;
   }
   .otheramount{
-    width: 750px; 
+    width: 750px; /* Card width */
     height: 30px;
-    border-radius: 10px; 
+    border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.09); 
-    overflow: hidden; 
+    overflow: hidden; /* Ensures content fits inside */
     background-color: white;
     text-align: center;
     margin: 20px auto;
