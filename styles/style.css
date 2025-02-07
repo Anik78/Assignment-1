@@ -9,9 +9,9 @@
   font-variation-settings:
     "wdth" 100;
 }
-.color{
-    background-color: #f8f9fa;
-}
+/* .color{
+    color: #F5F5F5;
+} */
 nav {
     display: flex;
     align-items: center;
@@ -25,18 +25,18 @@ nav {
     /* margin-left: 50px; */
 }
 .sign-in-btn {
-    background-color: white; /* Background is white */
-    color: #0F5F3B; /* Text color (adjust to match the exact shade of green) */
-    border: 2px solid #0F5F3B; /* Green border */
-    padding: 10px 20px; /* Space inside the button */
-    font-size: 16px; /* Adjust font size */
-    font-weight: bold; /* Make text bold */
-    border-radius: 5px; /* Slightly rounded corners */
-    cursor: pointer; /* Pointer effect on hover */
+    background-color: white; 
+    color: #0F5F3B; 
+    border: 2px solid #0F5F3B; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    cursor: pointer; /* pointer hover */
 }
 
 .sign-in-btn:hover {
-    background-color: #f0f0f0; /* Slight gray background on hover */
+    background-color: #f0f0f0; 
 }
 
 /* .about{
@@ -112,7 +112,7 @@ nav {
 }
 .skill-description{
     opacity: 0.5;
-    /* word-break: break-word; */
+    
 }
 .words{
     word-wrap: break-word;
@@ -248,16 +248,16 @@ nav {
 }
 .skills-donate{
     display: flex;
-    justify-content: center; /* Centers horizontally */
+    justify-content: center; /* horizontally */
     
-    gap: 20px; /* Adjust gap between cards */
-    flex-wrap: wrap; /* Ensures responsiveness */
+    gap: 20px; 
+    flex-wrap: wrap; 
 }
 .centered-div {
-    width: 90%; /* Adjust width as needed */
-    margin: 0 auto; /* Centers the div horizontally */
-    padding: 20px; /* Adds space inside the div */
-    text-align: center; /* Centers text inside */
+    width: 90%; 
+    margin: 0 auto; 
+    padding: 20px; 
+    text-align: center; 
   }
   .skill-title1{
     font-size: 35px;
@@ -280,11 +280,11 @@ nav {
     background-color: #C6E4D6;
   }
   .otheramount{
-    width: 750px; /* Card width */
+    width: 750px; 
     height: 30px;
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.09); /* Shadow effect */
-    overflow: hidden; /* Ensures content fits inside */
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.09); 
+    overflow: hidden; 
     background-color: white;
     text-align: center;
     margin: 20px auto;
